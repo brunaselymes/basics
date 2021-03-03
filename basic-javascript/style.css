@@ -1,0 +1,16 @@
+body{
+		font-family: sans-serif;
+}
+#shape{
+			width:200px;
+			height: 200px;
+			background-color: tomato;
+			display: none;
+			position: relative;
+		}
+		#yourTime{
+			font-weight: bold;
+			color:#3a0752;
+		}
+
+

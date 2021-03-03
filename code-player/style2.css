@@ -1,0 +1,79 @@
+body{
+	font-family: roboto;
+	padding: 0;
+	margin: 0;
+
+}
+
+#header{
+	font-size: 17px;
+	width: 100%;
+	background-color: #EEEEEE;
+	padding: 5px;
+	margin: 0;
+	height: 30px;
+}
+
+#logo{
+	float: left;
+	font-weight: bold;
+	padding: 4px 6px;
+	color: #443f4d;
+}
+
+#buttonContainer{
+	margin: 0 auto;
+	width: 250px;
+	font-size: 95%;
+	padding: 2px;
+}
+
+.toggleButton{
+	float: left;
+	border: 1px solid #443f4d;
+	padding: 3px;
+	border-right: none;
+}
+
+#output{
+	border: 1px solid #443f4d;
+	border-top-right-radius: 15%;
+	border-bottom-right-radius: 15%;
+}
+
+#html{
+	border: 1px solid #443f4d;
+	border-top-left-radius: 15%;
+	border-bottom-left-radius: 15%;
+}
+
+.active{
+	background-color: #f0ebfa;
+}
+
+.highlighted{
+	background-color: #d5cce6;
+}
+
+textarea{
+	height: 100%;
+	resize: none;
+	border-color: #443f4d;
+	border-top: none;
+}
+
+.panel{
+	float: left;
+	margin: 3px 0 3px 0;
+	width: 50%;
+	border-left: none;
+}
+iframe{
+	border: none;
+
+}
+
+.hidden{
+
+	display: none;
+}
